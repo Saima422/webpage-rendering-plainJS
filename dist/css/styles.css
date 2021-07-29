@@ -163,6 +163,12 @@
   margin: 0 auto;
 }
 
+@media (max-width: 650px) {
+  .ourWork-container {
+    width: 100%;
+  }
+}
+
 .ourWork-container .work-heading {
   font-size: 2rem;
   text-align: center;
@@ -178,6 +184,12 @@
   display: block;
   width: 500px;
   margin: 20px auto;
+}
+
+@media (max-width: 540px) {
+  .ourWork-container .project-section .project-image {
+    width: 80vw;
+  }
 }
 
 .ourWork-container .project-section .project-heading {

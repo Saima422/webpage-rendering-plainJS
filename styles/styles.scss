@@ -167,6 +167,10 @@
     width: 80%;
     margin: 0 auto;
 
+    @media (max-width: 650px) {
+      width: 100%;
+    }
+
     .work-heading{
       font-size: 2rem;
       text-align: center;
@@ -181,6 +185,10 @@
         display: block;
         width: 500px;
         margin: 20px auto;
+
+        @media (max-width: 540px) {
+          width: 80vw;
+        }
       }
 
       .project-heading{
