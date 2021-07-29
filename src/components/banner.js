@@ -1,9 +1,13 @@
-import { bannerData } from "../data/data.js";
+// import { bannerData } from "../data/data.js";
 
-export const Banner = () => {
+export const Banner = (bannerData) => {
     const markup = document.createElement('div');
     markup.classList.add('banner');
-    markup.style.backgroundImage = bannerData.bannerImage;
+    markup.style.backgroundImage = `linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.438),
+        rgba(0, 0, 0, 0.753)
+      ),url(${bannerData.bannerImage})`;
 
     let heading = document.createElement('h1');
     heading.classList.add('banner-heading');
@@ -25,4 +29,3 @@ export const Banner = () => {
     return markup;
 };
 
-// export {banner};

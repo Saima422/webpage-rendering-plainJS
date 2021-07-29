@@ -1,6 +1,6 @@
-import { navData } from "../data/data.js";
+// import { navData } from "../data/data.js";
 
-export const NavLogo = () => {
+export const NavLogo = (navData) => {
     const markup = document.createElement('div');
     markup.classList.add('company-logo');
 

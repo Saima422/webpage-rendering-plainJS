@@ -58,3 +58,9 @@ export const getData = async () => {
   data = await data.json();
   return data;
 };
+
+export const footerData = [
+  {href:'#',title: "link1"},
+  {href:'#',title: "link2"},
+  {href:'#',title: "link3"},
+]

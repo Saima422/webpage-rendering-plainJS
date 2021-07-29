@@ -1,6 +1,6 @@
-import { navData } from "../data/data.js";
+// import { navData } from "../data/data.js";
 
-export const NavLinks = () => {
+export const NavLinks = (navData) => {
     const markup = document.createElement('ul');
     markup.classList.add('nav-container');
 
