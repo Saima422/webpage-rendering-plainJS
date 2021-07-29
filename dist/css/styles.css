@@ -186,7 +186,7 @@
   margin: 20px auto;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 650px) {
   .ourWork-container .project-section .project-image {
     width: 80vw;
   }
